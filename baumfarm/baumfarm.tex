@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage{mathptmx}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usepackage{stmaryrd}
+\usepackage{rotating}
+%\usepackage{color}                                                          
+\usepackage[active,pdftex,tightpage]{preview}
+\usetikzlibrary{arrows}
+\usetikzlibrary{plotmarks}
+\PreviewEnvironment[]{tikzpicture}
+\PreviewEnvironment[]{pgfpicture}
+\DeclareSymbolFont{symbolsb}{OMS}{cmsy}{m}{n}
+\SetSymbolFont{symbolsb}{bold}{OMS}{cmsy}{b}{n}
+\DeclareSymbolFontAlphabet{\mathcal}{symbolsb}
+
+\tikzstyle{stdSize}	=[minimum size=9mm, inner sep=0pt]
+\tikzstyle{block}	=[draw,stdSize,fill=gray]
+\tikzstyle{piston}	=[draw,stdSize,fill=white,label={center:\Huge$\square$}]
+\tikzstyle{pistonN}	=[piston,label={center:n}]
+\tikzstyle{pistonE}	=[piston,label={center:e}]
+\tikzstyle{pistonS}	=[piston,label={center:s}]
+\tikzstyle{pistonW}	=[piston,label={center:w}]
+\tikzstyle{red}		=[circle, draw=red, fill=red, stdSize]
+\tikzstyle{repeatN}	=[stdSize,label={center:\Huge$\triangle$}]
+\tikzstyle{repeatE}	=[stdSize,label={center:\Huge\begin{turn}{270}$\triangle$\end{turn}}]
+\tikzstyle{repeatS}	=[stdSize,label={center:\Huge\begin{turn}{180}$\triangle$\end{turn}}]
+\tikzstyle{repeatW}	=[stdSize,label={center:\Huge\begin{turn}{90}$\triangle$\end{turn}}]
+\tikzstyle{torch}	=[stdSize,circle, draw=red,thick]
+\tikzstyle{torchN}	=[torch,label={center:n}]
+\tikzstyle{torchE}	=[torch,label={center:e}]
+\tikzstyle{torchS}	=[torch,label={center:s}]
+\tikzstyle{torchW}	=[torch,label={center:w}]
+
+
+\begin{document}
+Level 16 \input{baumfarmL16.tikz}
+Level 15 \input{baumfarmL15.tikz}
+Level 14 \input{baumfarmL14.tikz}
+Level 13 \input{baumfarmL13.tikz}
+Level 12 \input{baumfarmL12.tikz}
+Level 11 \input{baumfarmL11.tikz}
+Level 10 \input{baumfarmL10.tikz}
+Level 09 \input{baumfarmL09.tikz}
+Level 08 \input{baumfarmL08.tikz}
+Level 07 \input{baumfarmL07.tikz}
+Level 06 \input{baumfarmL06.tikz}
+Level 05 \input{baumfarmL05.tikz}
+Level 04 \input{baumfarmL04.tikz}
+Level 03 \input{baumfarmL03.tikz}
+Level 02 \input{baumfarmL02.tikz}
+Level 01 \input{baumfarmL01.tikz}
+
+
+\end{document}

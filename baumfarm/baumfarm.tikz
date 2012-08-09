@@ -1,0 +1,63 @@
+\begin{tikzpicture}[
+stdSize/.style={minimum size=9mm, inner sep=0pt},
+block/.style={draw,stdSize,fill=gray},
+piston/.style={draw,stdSize,fill=white,label={center:\Huge$\square$}},
+pistonN/.style={piston,label=n},
+pistonE/.style={piston,label=e},
+pistonS/.style={piston,label=s},
+pistonW/.style={piston,label=w},
+red/.style={circle, draw=red, fill=red, stdSize},
+repeatN/.style={stdSize,label={center:\Huge$\triangle$}},
+repeatE/.style={stdSize,label={center:\Huge\begin{turn}{270}$\triangle$\end{turn}}},
+repeatS/.style={stdSize,label={center:\Huge\begin{turn}{180}$\triangle$\end{turn}}},
+repeatW/.style={stdSize,label={center:\Huge\begin{turn}{90}$\triangle$\end{turn}}},
+torch/.style={stdSize,circle, draw=red,thick},
+torchN/.style={torch,label=n},
+torchE/.style={torch,label=e},
+torchS/.style={torch,label=s},
+torchW/.style={torch,label=w},
+]
+%first level
+	%grid
+	\draw[very thin, black] (0,0) grid (5,6);
+	\draw [thick] (0,0) rectangle (5,6);
+	%blocks
+	%row1
+	\node[] at (0.5,0.5) {};
+	\node[] at (1.5,0.5) {};
+	\node[] at (2.5,0.5) {};
+	\node[] at (3.5,0.5) {};
+	\node[] at (4.5,0.5) {};
+	%row
+	\node[] at (0.5,1.5) {};
+	\node[] at (1.5,1.5) {};
+	\node[] at (2.5,1.5) {};
+	\node[] at (3.5,1.5) {};
+	\node[] at (4.5,1.5) {};
+	%row
+	\node[] at (0.5,2.5) {};
+	\node[] at (1.5,2.5) {};
+	\node[] at (2.5,2.5) {};
+	\node[] at (3.5,2.5) {};
+	\node[] at (4.5,2.5) {};
+	%row
+	\node[] at (0.5,3.5) {};
+	\node[] at (1.5,3.5) {};
+	\node[] at (2.5,3.5) {};
+	\node[] at (3.5,3.5) {};
+	\node[] at (4.5,3.5) {};
+	%row
+	\node[] at (0.5,4.5) {};
+	\node[] at (1.5,4.5) {};
+	\node[] at (2.5,4.5) {};
+	\node[] at (3.5,4.5) {};
+	\node[] at (4.5,4.5) {};
+	%row
+	\node[] at (0.5,5.5) {};
+	\node[] at (1.5,5.5) {};
+	\node[] at (2.5,5.5) {};
+	\node[] at (3.5,5.5) {};
+	\node[] at (4.5,5.5) {};
+
+
+\end{tikzpicture}
